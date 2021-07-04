@@ -11,7 +11,7 @@ very specific commands relating to a certain private bot that exists + log keepi
     "prefix": "a.",
     "commandErrors": false,
     "reply": false,
-    "commandID": ["218919888583000064", "325782200975097866"]
+    "commandID": ["123456789123456789"]
 }
 ```
 **Token**: Your bot token, can be accessed at [here](https://discord.com/developers/applications)
