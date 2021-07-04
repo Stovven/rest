@@ -7,7 +7,7 @@ module.exports = (client) => {
         const { content } = message
         const arguments = content.split(/[ ]+/)
         const text = arguments.join(" ").toLowerCase()
-        if(text.match(/cavefolder 2/) || text.match(/cavefolder two/)) {
+        if(text.match(/test/)) { 
             message.channel.send('shut the fuck up')
         }
     })
