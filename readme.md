@@ -11,7 +11,9 @@ very specific commands relating to a certain private bot that exists + log keepi
     "prefix": "a.",
     "commandErrors": false,
     "reply": false,
-    "commandID": ["123456789123456789"]
+    "commandID": ["123456789123456789"],
+    "verifyChannel": "123456789123456789",
+    "verifyRole": "123456789123456789"
 }
 ```
 **Token**: Your bot token, can be accessed at [here](https://discord.com/developers/applications)
@@ -23,6 +25,12 @@ very specific commands relating to a certain private bot that exists + log keepi
 **reply**: reply to a very specific string if set to *true*, can be changed in *./utils/response.js*. by default is set to *false*
 
 **commandID**: user IDs allowed to use a specific command, used for *say*
+
+**verifyChannel**: Channel to use *verify* on
+
+**verifyRole**: role to apply if *verify* is successful
+
+its possible to rename *verify* to whatever you want if you wish, located at *./commands/commands/text/verify.js*
 
 ------
 
