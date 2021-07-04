@@ -15,9 +15,13 @@ very specific commands relating to a certain private bot that exists + log keepi
 }
 ```
 **Token**: Your bot token, can be accessed at [here](https://discord.com/developers/applications)
+
 **prefix**: bot prefix
+
 **commandErrors**: set to *true* if you want the bot to display permission errors, by default is *false*
+
 **reply**: reply to a very specific string if set to *true*, can be changed in *./utils/response.js*. by default is set to *false*
+
 **commandID**: user IDs allowed to use a specific command, used for *say*
 
 ------
