@@ -7,8 +7,8 @@ module.exports = (client) => {
         const { content } = message
         const arguments = content.split(/[ ]+/)
         const text = arguments.join(" ").toLowerCase()
-        if(text.match(/test/)) { 
-            message.channel.send('shut the fuck up')
+        if(text.match(/match text/)) { 
+            message.channel.send('response')
         }
     })
 }
