@@ -1,3 +1,7 @@
 config/config_token.json
+commands/commands/text/ball.js
+commands/commands/text/cube.js
+commands/commands/moderation/embed.js
+config/embed.json
 node_modules
 start.bat

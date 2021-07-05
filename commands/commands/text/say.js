@@ -14,7 +14,7 @@ module.exports = {
     let embed = new Discord.MessageEmbed()
     .setColor('#47FC74')
     .setAuthor("no!")
-    .setDescription(`fuck off`)
+    .setDescription(`:(`)
     message.channel.send(embed)
   }
   },

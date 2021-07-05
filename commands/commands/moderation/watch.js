@@ -97,7 +97,7 @@ module.exports = {
     let date = new Date().toISOString().replace(/T/, ' ').replace(/\..+/, '')
     let embed = new Discord.MessageEmbed()
     .setColor('#3371ff')
-    .setTitle(`${userCheck.tag} got placed on THE LIST lol sucks to suck`)
+    .setTitle(`${userCheck.tag} is now on a watchlist.`)
     .setDescription(`**User**: ${userCheck} (${userCheck.id}) \n **Offense**: ${offenseReason} \n **Reason**: ${reasonText}`)
     .setFooter(`Logged by ${message.member.user.tag} on ${date}`)
    

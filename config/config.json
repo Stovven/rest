@@ -1,6 +1,6 @@
 {
     "token": "TOKEN HERE",
-    "prefix": "a.",
+    "prefix": "r!",
     "commandErrors": false,
     "reply": false,
     "commandID": ["123456789123456789"],

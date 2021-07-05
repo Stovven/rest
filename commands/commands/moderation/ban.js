@@ -97,7 +97,7 @@ module.exports = {
     let date = new Date().toISOString().replace(/T/, ' ').replace(/\..+/, '')
     let embed = new Discord.MessageEmbed()
     .setColor('#ff33d7')
-    .setTitle(`${userCheck.tag} got banned lol`)
+    .setTitle(`${userCheck.tag} has gotten banned.`)
     .setDescription(`**User**: ${userCheck} (${userCheck.id}) \n **Offense**: ${offenseReason} \n **Reason**: ${reasonText}`)
     .setFooter(`Logged by ${message.member.user.tag} on ${date}`)
    

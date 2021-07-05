@@ -6,7 +6,7 @@ module.exports = {
   callback: (message, arguments, text) => {
     let embed = new Discord.MessageEmbed()
     .setColor('#47FC74')
-    .setTitle('yes im alive')
+    .setTitle('Bot is alive!')
     message.channel.send(embed)
   },
 }
