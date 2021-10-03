@@ -1,5 +1,5 @@
 # Rest
-A discord bot that i made as a little joke/side thing. Could be used as a base if you'd like.
+A discord bot that i made as a little joke/side thing. Could be used as a base if you'd like. (outdated uses discord v12)
 
 ## things it can do
 By default includes
